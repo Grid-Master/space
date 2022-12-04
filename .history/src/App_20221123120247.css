@@ -1,0 +1,5 @@
+.App {}
+.clip {
+    background: white;
+    z-index: 3;
+}

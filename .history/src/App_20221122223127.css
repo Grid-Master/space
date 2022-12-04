@@ -1,0 +1,19 @@
+.App {}
+
+.path {
+    position: relative;
+    background-color: white;
+    color: black;
+    height: 300px;
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 40px;
+        -webkit-clip-path: polygon(0 0, 15% 0, 20% 10%, 100% 10%, 100% 90%, 85% 90%, 80% 100%, 0 100%); 
+    clip-path: polygon(0 0, 15% 0, 20% 10%, 100% 10%, 100% 90%, 85% 90%, 80% 100%, 0 100%);   
+}
+
+.path::after {
+    position: absolute;
+    content: '555';
+    color: blue
+}

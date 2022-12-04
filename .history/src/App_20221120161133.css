@@ -1,0 +1,22 @@
+.App {}
+
+.dick {
+    margin-left: 100px;
+    margin-top: 100px;margin-bottom: 100px;
+    position: relative;
+    /* clip-path: polygon(0 100%, 0 10%, 75% 10%, 85% 0, 100% 0, 100% 90%, 25% 90%, 15% 100%, ); */
+    clip-path: polygon(0 100%, 10% 100%, 15% 90%, 100% 90%, 100% 0, 90% 0, 85% 10% ,0 10%);
+    height: 100px;
+    width: 200px;
+    background-color: rgb(234, 208, 208);
+    outline: none;
+    cursor: pointer;
+}
+
+.divka {
+    clip-path: polygon(0 100%, 10% 100%, 15% 90%, 100% 90%, 100% 0, 90% 0, 85% 10% ,0 10%);
+    height: 100px;
+    width: 200px;
+    background-color: rgb(226, 59, 59);
+
+}

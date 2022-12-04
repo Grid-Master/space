@@ -1,0 +1,210 @@
+.roadMap {
+    position: relative;
+    padding-left: 150px;
+    padding-top: 260px;
+    background-image: url(../../assets/images/roadmapbg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 1540px;
+}
+
+.roadMap__title {
+    /* margin-top: 100px; */
+    position: relative;
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76px;
+    letter-spacing: 0.365em;
+    z-index: 1;
+}
+
+.roadMap__title span {
+    position: absolute;
+    top: -55px;
+    left: 87px;
+    font-family: 'MazzardH';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    background: linear-gradient(90deg, #FFB800 0%, #FFBAC3 70.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    opacity: 0.95;
+    letter-spacing: normal;
+}
+
+.line {
+    position: absolute;
+    top: -37px;
+    left: 7px;
+}
+
+.roadMap__list {
+    position: relative;
+    margin-top: 87px;
+    /* margin-bottom: 100px; */
+}
+
+.roadMap__list::after {
+    position: absolute;
+    top: 7%;
+    left: -75px;
+    content: '';
+    width: 7px;
+    height: 86%;
+    background-color: white;
+    z-index: 0;
+}
+
+.roadMap__list-item {
+    position: relative;
+    padding-top: 23px;
+    padding-left: 34px;
+    padding-bottom: 23px;
+    color: white;
+    background: linear-gradient(249.9deg, rgba(255, 255, 255, 0) -24.77%, rgba(255, 255, 255, 0.15) 105.99%);
+    backdrop-filter: blur(17px);   
+    width: 462px;
+    transition: all .4s;
+    cursor: pointer;z-index: 1;
+}
+
+.roadMap__list-item:not(:last-child):nth-child(odd)::after{
+    position: absolute;
+    content: url(../../assets/images/crystalleft.png);
+    left: -111px;
+    top: 38px;
+    /* scale: 0.7; */
+    z-index: 1;
+}
+
+.roadMap__list-item:last-child::after{
+    position: absolute;
+    content: url(../../assets/images/crystalleft.png);
+    left: -111px;
+    top: 20px;
+    /* scale: 0.7; */
+    z-index: 1;
+}
+
+.roadMap__list-item:nth-child(even)::after{
+    position: absolute;
+    content: url(../../assets/images/crystalright.png);
+    left: -107px;
+    top: 38px;
+    /* scale: 0.7; */
+    z-index: 1;
+}
+
+
+.roadMap__list-item:hover:nth-child(even)::after{
+    position: absolute;
+    content: url(../../assets/images/crystalrightactive.png);
+    left: -107px;
+    top: 38px;
+    /* scale: 0.7; */
+    z-index: 1;
+}
+
+.roadMap__list-item:hover {
+    width: 503px;
+    padding-top: 37.5px;
+    padding-left: 37px;
+    padding-bottom: 23px;
+    color: black;
+    background: white;
+}
+
+.roadMap__list-item:not(:last-child) {
+    margin-bottom: 63px;
+}
+
+.roadMap__list-item h3 {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 140%;
+    transition: .4s;
+}
+
+.roadMap__list-item:hover h3 {
+    font-size: 45px;
+}
+
+.roadMap__list-item h4 {
+    font-family: 'MazzardH';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 140%;
+}
+
+.roadMap__list-item p {
+    font-family: 'MazzardH';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    max-width: 400px;
+}
+
+.fade1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+}
+
+.fade2 {
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.fade3 {
+    position: absolute;
+    left: 80px;
+    top: 0;
+    opacity: 0.5;
+}
+
+.fade4 {
+    position: absolute;
+    left: 35px;
+    top: 0;
+    opacity: 0.5;
+}
+
+.fade5 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.bigFade1 {
+    position: absolute;
+    bottom: -1000px;
+    left: 0;
+}
+
+.bigFade2 {
+    position: absolute;
+    top: -285px;
+    left: 0;
+    width: 100%;
+}
+
+.bigFade7 {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+.customButton-container {
+    position: relative;
+    /* left: -100px;
+    top: 300px; */
+}
+
+.customButton-border {
+    position: absolute;
+    left: 0;
+    top: 0;
+    clip-path: polygon(0 100%, 11% 100%, 16% 90%, 100% 90%, 100% 0, 89% 0, 84% 10% ,0 10%);
+    height: 104px;
+    width: 204px;
+    background-color: white;
+    z-index: 0;
+}
+
+.customButton {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    clip-path: polygon(0 100%, 10% 100%, 15% 90%, 100% 90%, 100% 0, 90% 0, 85% 10% ,0 10%);
+    height: 100px;
+    width: 200px;
+    background-color: inherit;
+    color: black;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    z-index: 1;
+}

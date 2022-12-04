@@ -1,0 +1,33 @@
+.teamSlider-info {
+    position: absolute !important;
+    font-family: 'MazzardH';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 487px;
+    height: 130px;
+    /* left: 570px; */
+    /* left: 30%; */
+    top: 715px !important; 
+    border: 1px solid white;
+    padding: 30px 49px;
+    z-index: 4;
+    animation: fade 6s ease-in-out infinite;
+}
+
+@keyframes fade {
+    0%  {
+     opacity: 0;
+     left: 35%;
+        }
+        20% {
+            left:30%
+        }
+    90% {
+        opacity: 1;
+    }
+   }
+   
+   

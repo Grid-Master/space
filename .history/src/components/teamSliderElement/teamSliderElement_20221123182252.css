@@ -1,0 +1,29 @@
+.teamSliderElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 265.5px;
+    height: 420.85px;
+}
+
+.avatar {
+    width: 247px;
+    height: 329px;
+}
+
+.teamSliderElement p {
+    font-family: 'MazzarH';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 140%;
+}
+
+.teamSliderElement span {
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 117.8%;
+    text-transform: uppercase;
+}

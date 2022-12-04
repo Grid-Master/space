@@ -1,0 +1,136 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    padding-top: 36px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header img {
+    height: 65px;
+}
+
+.header>div {
+    display: flex;
+    align-items:center;
+}
+
+.header ul {
+    display: flex;
+    align-items:center;
+    margin-right: 45px;
+}
+
+.header li:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.header li {
+    cursor:pointer;
+    z-index: 2;
+}
+
+.header button {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 21px 47px;
+    border: 1px solid white;
+    background-color: inherit;
+    color: white;
+    transition: all .4s;
+    outline: none;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: white;
+    color: black;
+}
+
+.header-burger {
+    position: relative;
+    display: none !important;
+    width: 45px !important;
+    height: 35px !important;
+    background-color: inherit;
+    align-self: right !important;
+    cursor: pointer;
+    z-index: 6;
+}
+
+.header-burger>span {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    width: 25px;
+    padding: 1.5px 0;
+    background-color: white;
+}
+
+.header-burger::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    content: '';
+    width: 45px;
+    height: 3px;
+    transition: 1s;
+}
+
+.header-burger::before {
+    position: absolute;
+    right: 0;   
+    bottom: 0;
+    background-color: white;
+    content: '';
+    width: 35px;
+    height: 3px;
+    transition: 1s;
+}
+
+
+.header-burger-active::after {
+    transform: rotateZ(135deg);
+    top: 13px;
+}
+
+
+.header-burger-active::before {
+    transform: rotateZ(45deg);
+    top: 16px;
+}
+
+.header-burger-active>span {
+
+}
+
+
+@media (max-width:768px) {
+    .header-burger {
+        display: block !important;
+        position: absolute;
+        right: 80px;
+    } 
+    .header {
+        position: fixed;
+        top: 0;
+        z-index: 6;
+        width: 100vw;
+        margin-left: 30px;
+    }
+    .header>img {
+        z-index: 6;
+    }
+
+    .header>div {
+        display: none;
+    }
+}

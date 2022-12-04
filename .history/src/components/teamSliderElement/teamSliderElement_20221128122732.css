@@ -1,0 +1,109 @@
+.teamSliderElement {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 265.5px;
+    height: 420.85px;
+    background: linear-gradient(249.9deg, rgba(255, 255, 255, 0) -24.77%, rgba(255, 255, 255, 0.3) 105.99%);
+    padding-left: 9px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    padding-right: 9px;
+    transition: .5s;
+    transition-delay: .5s; 
+    margin-right: 32px;
+    /* cursor: pointer; */
+}
+
+.teamSliderElement-container {}
+
+.teamSliderElement>div {
+    transition: .5s;
+}
+
+/* .teamSliderElement:hover {
+    background: #FFFFFF;
+    color: black;
+} */
+
+.teamSliderElementActive {
+    background: #FFFFFF;
+    backdrop-filter: blur(17px);
+    height: 701px;
+    width: 442px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor:default;
+    transition-delay: 0;
+}
+
+
+/* .avatar {
+    width: 247px;
+    height: 329px;
+    padding-bottom: 14px;
+} */
+
+.teamSliderElement p {
+    margin-top: 13px;
+    font-family: 'MazzardH';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 140%;
+    transition: .5s;
+    transition-delay: .5s; 
+}
+
+.teamSliderElementActive p {
+    margin-top: 23px;
+    margin-bottom: 7px;
+    font-size: 13px;
+    color: black;
+    transition: .5s;
+    transition-delay: 0s; 
+}
+
+.teamSliderElement span {
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 117.8%;
+    text-transform: uppercase;
+    transition: .5s;
+    transition-delay: .5s; 
+}
+
+.teamSliderElementActive span {
+    margin-top: 23px;
+    margin-bottom: 7px;
+    font-size: 35px;
+    color: black;
+}
+
+.teamSliderElement-info {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100px;
+    padding: 30px 49px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    z-index: -1;
+    transition: 1s !important;
+    transition-delay: 1s !important;
+}
+
+.teamSliderElementActive .teamSliderElement-info {
+    display: block;
+    right: -685px;
+}
+
+.teamSliderElement-info-visible {
+    opacity: 1;
+    height: 150px;
+}

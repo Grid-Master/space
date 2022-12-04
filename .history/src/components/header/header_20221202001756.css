@@ -1,0 +1,133 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    padding-top: 36px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header img {
+    height: 65px;
+}
+
+.header>div {
+    display: flex;
+    align-items:center;
+}
+
+.header ul {
+    display: flex;
+    align-items:center;
+    margin-right: 45px;
+}
+
+.header li:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.header li {
+    cursor:pointer;
+    z-index: 2;
+}
+
+.header button {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 21px 47px;
+    border: 1px solid white;
+    background-color: inherit;
+    color: white;
+    transition: all .4s;
+    outline: none;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: white;
+    color: black;
+}
+
+.header-burger {
+    position: relative;
+    display: none !important;
+    width: 45px !important;
+    height: 35px !important;
+    background-color: inherit;
+    align-self: right !important;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.header-burger>span {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    width: 25px;
+    padding: 1.5px 0;
+    background-color: white;
+}
+
+.header-burger::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    content: '';
+    width: 45px;
+    height: 3px;
+}
+
+.header-burger::before {
+    position: absolute;
+    right: 0;   
+    bottom: 0;
+    background-color: white;
+    content: '';
+    width: 35px;
+    height: 3px;
+}
+
+
+.burger-menu {
+    padding-top: 100px;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    z-index: 5;
+}
+
+.burger-menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.burger-menu-socials {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 93px;
+}
+
+
+@media (max-width:768px) {
+    .header-burger {
+        display: block !important;
+    }
+
+    .header>div {
+        display: none;
+    }
+}

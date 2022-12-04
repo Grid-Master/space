@@ -1,0 +1,114 @@
+.factions__list-item {
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: right;
+    transition: all .5s;
+    position: relative;
+}
+
+.factions__list-item:nth-child(odd)::after {
+    position: absolute;
+    content: url(../../assets/images/crystalleft.png);
+    right: -100px;
+    top: 0;
+    scale: 0.7;
+}
+
+.factions__list-item:not(:last-child) {
+    margin-bottom: 75px;
+}
+
+/* .factions__list-item:nth-child(even)::after {
+    content: url('../../assets/images/logo.png');
+    position: absolute;
+    left: 0;
+    width: 100px;
+} */
+
+.factions__list-item-container {
+    height: 0;
+    opacity: 0;
+    transition: 1s;
+}
+
+.factions__list-item:hover .factions__list-item-container {
+    height: 184px;
+    opacity: 1;
+}
+
+.factions__list-item-img {
+    /* height: 0; */
+    opacity: 0;
+    transition: all 1s;
+}
+
+.factions__list-item:hover .factions__list-item-img {
+    margin-top: 30px;
+    /* height: 184px; */
+    opacity: 1;
+    /* transition: all 1s; */
+}
+
+/* .factions__list-item-link {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    background: linear-gradient(90deg, #FFB800 0%, #FFBAC3 70.62%);
+    backdrop-filter: blur(17px);
+    top: 90px;
+    left: -30px;
+    padding: 18px 40px;
+    opacity: 0;
+} */
+
+/* .factions__list-item-link:hover {
+    background: linear-gradient(70deg, #e7b537 0%, #f88595 70.62%);
+    transition: 1s;
+} */
+
+
+.customButton-container1{
+    position: absolute;
+    opacity: 0;
+    top: 90px;
+    left: -30px;
+    clip-path: polygon(0 100%, 11% 100%, 16% 90%, 100% 90%, 100% 0, 89% 0, 84% 10% ,0 10%);
+    background: linear-gradient(90deg, #ffe092 0%, #f2d1d5 70.62%);
+    height: 56px;
+    width: 124px;
+    background-color: white;
+    z-index: 0;
+    cursor: pointer;
+    transition: all 1.3s;
+}
+
+.factions__list-item:hover .customButton-container1 {
+    opacity: 1;
+    left: -60px;
+}
+
+.customButton1 {
+    cursor: pointer;
+    position: absolute;
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    height: 52px;
+    width: 120px;
+    left: 2px;
+    top: 2px;
+    clip-path: polygon(0 100%, 10% 100%, 15% 90%, 100% 90%, 100% 0, 90% 0, 85% 10% ,0 10%);
+    background: linear-gradient(90deg, #FFB800 0%, #FFBAC3 70.62%);
+    border:none;
+    outline: none;
+}

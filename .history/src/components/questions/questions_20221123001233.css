@@ -1,0 +1,15 @@
+.questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questions-title {
+    font-family: 'TTOctosquares-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.21em;
+}

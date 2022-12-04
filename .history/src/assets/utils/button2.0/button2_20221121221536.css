@@ -1,0 +1,7 @@
+.button2 {
+    position: absolute;
+    left: 500px;
+    -webkit-clip-path: polygon(0 10%, 0 90%, 15% 90%, 20% 100%, 100% 100%, 100% 0, 85% 0, 80% 10%);
+clip-path: polygon(0 10%, 0 90%, 15% 90%, 20% 100%, 100% 100%, 100% 0, 85% 0, 80% 10%);
+padding: 21px 31px 14px 31px;
+}

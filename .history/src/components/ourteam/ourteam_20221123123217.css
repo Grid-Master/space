@@ -1,0 +1,15 @@
+.ourteam {
+    
+}
+
+.ourteam-title {
+    font-family: 'TTOctosquares-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 100%;
+/* or 64px */
+
+text-align: center;
+letter-spacing: 0.21em;
+}

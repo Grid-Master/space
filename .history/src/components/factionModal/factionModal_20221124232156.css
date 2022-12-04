@@ -1,0 +1,50 @@
+.factionModal__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 76px;
+}
+
+.factionModal__button-close {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    outline: none;
+    padding: 21px 40px;
+    background: inherit;
+    border: 2px solid #FFFFFF;
+    backdrop-filter: blur(17px);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.factionModal__button-next {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 21px 66px 21px 32px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.factionModal__info-list {
+    margin-top: 60px;
+    margin-right: 45%;
+}
+
+.factionModal__info-list-item {
+    font-family: 'Move X';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 140%;
+text-transform: uppercase;
+}
+
+.factionModal__info-list-item:not(:last-child) {
+    margin-bottom: 40px;
+}

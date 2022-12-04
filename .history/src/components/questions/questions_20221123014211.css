@@ -1,0 +1,128 @@
+.questions {
+    margin-top: 338px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questions-title {
+    position: relative;
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.21em;
+    max-width: 538px;
+    align-items:center;
+    text-align: center;
+}
+
+.FAQ {
+    position: absolute;
+    left: 240px;
+    top: -65px;
+    font-family: 'MazzardH';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    background: linear-gradient(90deg, #FFB800 0%, #FFBAC3 70.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: normal;
+/* text-fill-color: transparent; */
+}
+
+.lineFAQ {
+    position: absolute;
+    left: 206px;
+    top: -41px;
+    width: 122.5px;
+    height: 10px;
+    transform: rotateX(180deg);
+}
+
+.sun {
+    margin: 0 20px 0 5px;
+}
+
+.questions__grid {
+    background-color: blue;
+    margin-top: 90px;
+    margin-left: 10%;
+    margin-right: 6%;
+    display: grid;
+    grid-template-areas: 
+    "g1 g1 g1 g2 g2 g2 g3 g3 g3"
+    "g1 g1 g1 g2 g2 g2 g3 g3 g3"
+    "g1 g1 g1 g2 g2 g2 g3 g3 g3"
+    "g1 g1 g1 g7 g7 g7 g3 g3 g3"
+    "g4 g5 g6 g7 g7 g7 g8 g8 g8"
+    "g9 g9 g9 g7 g7 g7 g8 g8 g8"
+    "g9 g9 g9 g7 g7 g7 g8 g8 g8"
+    "g9 g9 g9 g10 g10 g10 g8 g8 g8"
+    "g9 g9 g9 g10 g10 g10 g8 g8 g8"
+    "g9 g9 g9 g10 g10 g10 g11 g11 g11"
+    "g13 g13 g13 g10 g10 g10 g11 g11 g11"
+    "g13 g13 g13 g12 g14 g14 g11 g11 g11"
+    "g13 g13 g13 g12 g14 g14 g11 g11 g11"
+    "g13 g13 g13 g12 g14 g14 g11 g11 g11"
+    ;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    -webkit-clip-path: polygon(0 0, 5% 0, 8% 5%, 100% 5%, 100% 97%, 95% 97%, 92% 100%, 0 100%);
+    clip-path: polygon(0 0, 5% 0, 8% 3%, 100% 3%, 100% 95%, 95% 95%, 93% 100%, 0 100%);
+    
+    
+}
+
+.questions__grid>div {
+
+}
+
+.g1 {
+    grid-area: g1;
+}
+.g2 {
+    grid-area: g2;
+}
+.g3 {
+    grid-area: g3;
+}
+.g4 {
+    grid-area: g4;
+}
+.g5 {
+    grid-area: g5;
+}
+.g6 {
+    grid-area: g6;
+}
+.g7 {
+    grid-area: g7;
+}
+.g8 {
+    grid-area: g8;
+}
+.g9 {
+    grid-area: g9;
+}
+.g10 {
+    grid-area: g10;
+}
+.g11 {
+    grid-area: g11;
+}
+.g12 {
+    grid-area: g12;
+}
+.g13 {
+    grid-area: g13;
+}
+.g14 {
+    grid-area: g14;
+}

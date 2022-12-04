@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 78px 50px;
+    z-index: 5;
+}
+
+.footer>div {
+    display: flex;
+    align-items:center;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+}
+
+.footer ul li:not(:last-child) {
+    margin-right: 32px;
+}
+
+.footer ul li {
+    cursor: pointer;
+}
+
+@media(max-width:900px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer> div {
+        flex-direction: column;
+        margin-left: 0;
+    }
+}

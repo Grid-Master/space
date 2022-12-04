@@ -1,0 +1,22 @@
+.App {}
+
+.path {
+    position: relative;
+    background-color: white;
+    color: black;
+    height: 300px;
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 40px;
+        -webkit-clip-path: polygon(0 0, 15% 0, 20% 10%, 100% 10%, 100% 90%, 85% 90%, 80% 100%, 0 100%); 
+    clip-path: polygon(0 0, 15% 0, 20% 10%, 100% 10%, 100% 90%, 85% 90%, 80% 100%, 0 100%);   
+    z-index: 0;
+}
+
+.path::before {
+    position: absolute;
+    content: url('/src/assets/images/crystalleft.png');
+    color: blue;
+    top: -40px;
+    z-index: 22;
+}

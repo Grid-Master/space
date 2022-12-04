@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 50px;
+}
+
+.footer>div {
+    display: flex;
+    align-items:center;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+}

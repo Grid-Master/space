@@ -1,0 +1,65 @@
+.teamList__item{
+    width: 312px;      
+    z-index: 4;
+}
+
+.teamList__item:not(:last-child) {
+    margin-bottom: 95px;
+}
+
+.teamList__item-container{
+    background: #FFFFFF;
+backdrop-filter: blur(12px);
+-webkit-clip-path: polygon(0 0, 10% 0, 15% 5%, 100% 5%, 100% 95%, 88% 95%, 85% 100%, 0 100%);
+    clip-path: polygon(0 0, 10% 0, 15% 2%, 100% 2%, 100% 98%, 90% 98%, 85% 100%, 0 100%);
+    padding-bottom: 22px;
+}
+.teamList__item-image {
+    width: 290.68px;
+    height: 387.02px;
+    padding-top: 21px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.teamList__item-desc {
+    font-family: 'MazzardH';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 140%;
+color: #000000;
+opacity: 0.95;
+padding-left: 11px;
+padding-top: 16px;
+}
+
+.teamList__item-name {
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 117.8%;
+    text-transform: uppercase;
+    color: #000000;
+    padding-left: 11px;
+    padding-top: 6px;
+}
+
+.teamList__item-info {
+    width: 266px;
+    font-family: 'MazzardH';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 140%;
+color: #FFFFFF;
+opacity: 0.95;
+padding-left: 11px;
+background:inherit;
+padding-top: 36px;
+padding-bottom: 40px;
+border: 1px solid white;
+width: 299px;
+transform: translateY(-12px);
+}

@@ -1,0 +1,15 @@
+
+
+.factionModal__button-close {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    outline: none;
+    padding: 21px 40px;
+    background: inherit;
+    border: 2px solid #FFFFFF;
+    backdrop-filter: blur(17px);
+    color: #FFFFFF;
+}

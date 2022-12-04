@@ -1,0 +1,42 @@
+.roadMap {
+    padding-left: 150px;
+}
+
+.roadMap__title {
+    margin-top: 100px;
+    position: relative;
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76px;
+    letter-spacing: 0.365em;
+}
+
+.roadMap__title span {
+    position: absolute;
+    top: -55px;
+    left: 87px;
+    font-family: 'MazzardH';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    background: linear-gradient(90deg, #FFB800 0%, #FFBAC3 70.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    opacity: 0.95;
+    letter-spacing: normal;
+}
+
+.line {
+    position: absolute;
+    top: -37px;
+    left: 7px;
+}
+
+.roadMap__list {
+    margin-top: 87px;
+}

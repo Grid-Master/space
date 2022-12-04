@@ -1,0 +1,24 @@
+.App {}
+
+.carousel {
+    position: absolute;
+    background: white;  
+    max-width: 500px;
+    top: 200px;
+    left: 300px;
+    color: black;
+}
+
+.carousel>div {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.rec-arrow-left {
+    position: absolute;
+    left: -50px;
+    background-color:white !important;
+   }

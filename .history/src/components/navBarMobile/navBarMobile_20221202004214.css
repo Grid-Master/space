@@ -1,0 +1,58 @@
+.burger-menu {
+    padding-top: 130px;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    z-index: 5;
+}
+
+.burger-menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.burger-menu-list li {
+    font-family: 'NeueMachina';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 100%;
+margin-bottom: 81px;
+cursor: pointer;
+}
+
+.burger-menu-list li:last-child {
+    margin-bottom: 85px;
+}
+
+.burger-menu-socials {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.burger-menu-socials li {
+    cursor: pointer;
+}
+
+.burger-menu-socials li:not(:last-child) {
+    margin-right: 43px;
+}
+
+.burger-menu-socials svg {
+    width: 30px;
+    height: 23px;
+}
+
+
+@media (max-width:768px) {
+    .burger-menu {
+        display: block;
+    }   
+}

@@ -1,0 +1,28 @@
+.factionModal__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.factionModal__button-close {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    outline: none;
+    padding: 21px 40px;
+    background: inherit;
+    border: 2px solid #FFFFFF;
+    backdrop-filter: blur(17px);
+    color: #FFFFFF;
+}
+
+.factionModal__button-next {
+    font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+padding: 21px 66px 21px 32px;
+}

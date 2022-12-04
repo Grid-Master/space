@@ -1,0 +1,8 @@
+.App {}
+
+.carousel {
+    position: absolute;
+    background: white;  
+    max-width: 200px;
+    top: 0;
+}

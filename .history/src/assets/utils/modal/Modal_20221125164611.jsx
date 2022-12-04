@@ -1,0 +1,14 @@
+import React from 'react';
+import './modal.css';
+
+const Modal = ({ active, setActive, children, bacKground }) => {
+  return (
+    <div className={active ? 'modal active' : 'modal'}>
+      <div className={`modal__content modal-${background}`} onClick={(e) => e.stopPropatination()}>
+        {children}
+      </div>
+    </div>
+  );
+};
+
+export default Modal;

@@ -1,0 +1,16 @@
+.App {}
+
+.carousel {
+    position: absolute;
+    background: white;  
+    max-width: 500px;
+    top: 200px;
+    left: 300px;
+    color: black;
+}
+
+.rec-arrow-left {
+ position: absolute;
+ top: 200px;
+ background-color:white;
+}

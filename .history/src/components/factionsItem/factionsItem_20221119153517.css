@@ -1,0 +1,20 @@
+.factions__list-item {
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: right;
+}
+
+.factions__list-item:not(:last-child) {
+    margin-bottom: 75px;
+}
+
+.factions__list-item:hover .factions__list-item-img {
+    display: block;
+}
+
+.factions__list-item-img {
+    display: none;
+}

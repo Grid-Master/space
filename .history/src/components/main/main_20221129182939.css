@@ -1,0 +1,67 @@
+.main {
+    background-image: url(../../assets/images/mainBackground.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+.main h2 {
+    margin-top: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 78px;
+    letter-spacing: 0.365em;
+}
+
+.main>div {
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-button {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 21px 47px;
+    border: 1px solid white;
+    background-color: inherit;
+    color: white;
+    transition: all .4s;
+    outline: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.bigFade6 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+@media (max-width:1460px) {
+    .main h2 {
+        max-width: 780px;
+    }
+}
+
+@media (max-width:960px) {
+    .main h2 {
+        max-width: 550px;
+        font-size: 50px;
+    }
+}

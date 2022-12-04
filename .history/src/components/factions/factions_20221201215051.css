@@ -1,0 +1,119 @@
+.factions {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 160px; */
+    padding-right: 65px;
+    background-image: url(../../assets/images/factionsbg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+.factions>h2 {
+    margin-right: 5%;
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 95px;
+    letter-spacing: 0.365em;
+    padding-left: 22%;
+    z-index: 1;
+}
+
+.factions__list {
+    position: relative;
+    padding-right: 62px;
+    z-index: 2;
+}
+
+.factions__list::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    width: 5px;
+    height: 100%;
+    background-color: white;
+}
+
+.bigFade2 {
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    width: 100%;
+}
+
+.bigFade3 {
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.bigFade4 {
+    position: absolute;
+    left: 400px;
+    top: -200px;
+}
+
+.bigFade5 {
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+
+
+@media (max-width:1460px) {
+    .factions>h2  {
+        padding-left: 13%;
+    }
+}
+
+@media (max-width:1300px) {
+    .factions>h2  {
+      margin-right: 0;
+    }
+}
+
+@media (max-width:1200px) {
+    .factions {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    .factions>h2  {
+        padding-left: 0;
+        margin-bottom: 100px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width:960px) {
+    .factions>h2  {
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width:500px) {
+    .factions>h2  {
+        letter-spacing: 0.2em;
+    }
+
+    .factions__list {
+margin-right: 20px;
+    }
+
+    .factions__list::after {
+        right: 15px;
+    }
+
+    .factions {
+        padding-right: 0;
+    }
+}

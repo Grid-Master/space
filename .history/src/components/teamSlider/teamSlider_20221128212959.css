@@ -1,0 +1,11 @@
+.teamSlider-info {
+    position: relative !important;
+    font-family: 'MazzardH';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 487px;
+    bottom: 0;
+}

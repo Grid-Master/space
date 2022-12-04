@@ -1,0 +1,11 @@
+.main {
+    background-image: url(../../assets/images/mainBackground.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+.main h2 {
+    margin-top: 260px;
+    align-items:center
+}

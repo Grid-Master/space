@@ -1,0 +1,8 @@
+.car-div {
+    background: yellow;
+    width: 300;
+    height: 300;
+    border: 30px solid white;
+    text-align: center;
+    line-height: 240px;
+}

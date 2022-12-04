@@ -1,0 +1,24 @@
+.App {}
+
+.carousel {
+    position: fixed;
+    background: inherit;  
+    max-width: 500px;
+    top: 450px;
+    left: -185px;
+    color: white;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transform: rotate(90deg);
+}
+
+.carousel>div {
+    
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    cursor: pointer;
+    width: 100%;
+}

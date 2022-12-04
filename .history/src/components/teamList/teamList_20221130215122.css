@@ -1,0 +1,34 @@
+.teamList__item{
+    width: 312px;      
+}
+.teamList__item-container{
+    background: #FFFFFF;
+backdrop-filter: blur(12px);
+-webkit-clip-path: polygon(0 0, 10% 0, 15% 5%, 100% 5%, 100% 95%, 88% 95%, 85% 100%, 0 100%);
+    clip-path: polygon(0 0, 10% 0, 15% 2%, 100% 2%, 100% 98%, 90% 98%, 85% 100%, 0 100%);
+}
+.teamList__item-image {
+    width: 290.68px;
+    height: 387.02px;
+    padding-top: 21px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.teamList__item-desc {
+    font-family: 'MazzardH';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 140%;
+color: #000000;
+opacity: 0.95;
+}
+
+.teamList__item-name {
+
+}
+
+.teamList__item-info {
+    width: 266px;
+}

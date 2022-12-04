@@ -1,0 +1,28 @@
+.factions__list-item {
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: right;
+    transition: all .5s;
+}
+
+.factions__list-item:not(:last-child) {
+    margin-bottom: 75px;
+}
+
+/* .factions__list-item:nth-child(even)::after {
+    content: url('../../assets/images/logo.png');
+    position: absolute;
+    left: 0;
+    width: 100px;
+} */
+
+.factions__list-item-img {
+    display: none;
+}
+
+.factions__list-item:hover .factions__list-item-img {
+    display: block;
+}

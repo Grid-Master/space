@@ -1,0 +1,55 @@
+.factions__list-item {
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: right;
+    transition: all .5s;
+    position: relative;
+}
+
+.factions__list-item:not(:last-child) {
+    margin-bottom: 75px;
+}
+
+/* .factions__list-item:nth-child(even)::after {
+    content: url('../../assets/images/logo.png');
+    position: absolute;
+    left: 0;
+    width: 100px;
+} */
+
+.factions__list-item-img {
+    height: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.factions__list-item:hover .factions__list-item-img {
+    margin-top: 30px;
+    height: 184px;
+    opacity: 1;
+    /* transition: all 1s; */
+}
+
+.factions__list-item-button {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 20px 40px;
+    outline: none;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    transition: all 2s;
+}
+
+.factions__list-item:hover .factions__list-item-button {
+    opacity: 1;
+    display: block;
+    top: 100px;
+    left: -30px;
+}

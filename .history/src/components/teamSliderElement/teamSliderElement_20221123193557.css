@@ -1,0 +1,61 @@
+.teamSliderElement {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 265.5px;
+    height: 420.85px;
+    background: linear-gradient(249.9deg, rgba(255, 255, 255, 0) -24.77%, rgba(255, 255, 255, 0.3) 105.99%);
+    padding-left: 9px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    padding-right: 9px;
+    transition: 1s;
+    margin-right: 32px;
+}
+
+.teamSliderElementActive {
+    background: red;
+    height: 701px;
+    width: 442px;
+}
+
+/* .avatar {
+    width: 247px;
+    height: 329px;
+    padding-bottom: 14px;
+} */
+
+.teamSliderElement p {
+    margin-top: 13px;
+    font-family: 'MazzardH';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 140%;
+}
+
+.teamSliderElementActive p {
+    margin-top: 23px;
+    margin-bottom: 7px;
+    font-size: 13px;
+}
+
+.teamSliderElement span {
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 117.8%;
+    text-transform: uppercase;
+}
+
+.teamSliderElement-info {
+    position: absolute;
+    bottom: 0;
+    right: -680px;
+    width: 585px;
+    padding: 30px 49px;
+    background: none;
+    border: 1px solid white;
+}

@@ -1,0 +1,9 @@
+.App {}
+
+.path {
+    background-color: white;
+    color: black;
+    height: 300px;
+    width: 500px;
+    margin-left: 300px;
+}

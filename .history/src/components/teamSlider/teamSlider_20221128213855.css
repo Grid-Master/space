@@ -1,0 +1,15 @@
+.teamSlider-info {
+    position: absolute !important;
+    font-family: 'MazzardH';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 487px;
+    left: 580px;
+    top: 720px !important; 
+    border: 1px solid white;
+    padding: 30px 49px;
+    z-index: 4;
+}

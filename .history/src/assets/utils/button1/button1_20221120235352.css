@@ -1,0 +1,44 @@
+
+.customButton-container{
+    position: relative;
+    clip-path: polygon(0 100%, 11% 100%, 16% 90%, 100% 90%, 100% 0, 89% 0, 84% 10% ,0 10%);
+    background: linear-gradient(90deg, #ffe092 0%, #f2d1d5 70.62%);
+    height: 104px;
+    width: 204px;
+    background-color: white;
+    z-index: 0;
+}
+
+.customButton {
+    position: absolute;
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    height: 52px;
+    width: 200px;
+    left: 2px;
+    top: 2px;
+    clip-path: polygon(0 100%, 10% 100%, 15% 90%, 100% 90%, 100% 0, 90% 0, 85% 10% ,0 10%);
+    background: linear-gradient(90deg, #FFB800 0%, #FFBAC3 70.62%);
+    border:none;
+    outline: none;
+    /* font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    clip-path: polygon(0 100%, 10% 100%, 15% 90%, 100% 90%, 100% 0, 90% 0, 85% 10% ,0 10%);
+    height: 100px;
+    width: 200px;
+    background: linear-gradient(90deg, #FFB800 0%, #FFBAC3 70.62%);
+    color: black;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    z-index: 1; */
+}

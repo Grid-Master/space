@@ -1,0 +1,14 @@
+.factions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 160px;
+    background-image: url(../../assets/images/factionsbg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+.factions>h2 {
+    margin-right: 160px;
+}

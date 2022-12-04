@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header img {
+    height: 65px;
+}
+
+.header>div {
+    display: flex;
+    align-items:center;
+}
+
+.header ul {
+    display: flex;
+    align-items:center;
+    margin-right: 45px;
+}
+
+.header li:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.header li {
+    cursor:pointer;
+    z-index: 1;
+}
+
+.header button {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 21px 47px;
+    border: 1px solid white;
+    background-color: inherit;
+    color: white;
+    transition: all .4s;
+    outline: none;
+    z-index: 1;
+}
+
+.header button:hover {
+    background-color: white;
+    color: black;
+}

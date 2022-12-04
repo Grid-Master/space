@@ -1,0 +1,9 @@
+.App {}
+
+.dick {
+    /* clip-path: polygon(0 100%, 0 10%, 75% 10%, 85% 0, 100% 0, 100% 90%, 25% 90%, 15% 100%, ); */
+    clip-path: ellipse(100px 80px at center);
+    height: 100px;
+    width: 200px;
+    background-color: red;
+}

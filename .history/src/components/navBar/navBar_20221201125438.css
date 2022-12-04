@@ -1,0 +1,42 @@
+.carousel {
+    position: fixed;
+    background: inherit;
+    top: 425px;
+    left: -190px;
+    color: white;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transform: rotate(90deg);
+    z-index: 4;
+}
+
+.carousel>div {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    cursor: pointer;
+}
+
+.carousel>div>div {
+    max-width: 500px !important;
+}
+
+.carousel .forward {
+    padding-right: 100px !important;
+}
+.carousel .backward {
+    padding-right: 100px !important;
+}
+
+
+.rec-arrow {
+    background-color: inherit !important;
+    color: white  !important;
+}
+
+
+@media (max-width: 768px) {
+   .carousel{ display: none;}
+}

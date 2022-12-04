@@ -1,0 +1,34 @@
+.factions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 160px;
+    padding-right: 65px;
+    background-image: url(../../assets/images/factionsbg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+.factions>h2 {
+    margin-right: 160px;
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 95px;
+    letter-spacing: 0.365em;
+}
+
+.factions__list {}
+
+.factions__list-item {
+    font-family: 'TTOctosquares-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 140%;
+/* identical to box height, or 31px */
+
+text-align: right;
+}

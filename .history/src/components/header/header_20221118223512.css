@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header>div {
+    display: flex;
+    align-items:center;
+}
+
+.header ul {
+    display: flex;
+    align-items:center;
+}
+
+.header li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.header button {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 21px 47px;
+    border: 1px solid white;
+    background-color: inherit;
+    color: white;
+    transition: all .4s;
+}
+
+.header button:hover {
+    background-color: white;
+    color: black;
+}

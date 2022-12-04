@@ -1,0 +1,146 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    padding-top: 36px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header img {
+    height: 65px;
+}
+
+.header>div {
+    display: flex;
+    align-items:center;
+}
+
+.header ul {
+    display: flex;
+    align-items:center;
+    margin-right: 45px;
+}
+
+.header li:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.header li {
+    cursor:pointer;
+    z-index: 2;
+}
+
+.header button {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 21px 47px;
+    border: 1px solid white;
+    background-color: inherit;
+    color: white;
+    transition: all .4s;
+    outline: none;
+    z-index: 2;
+}
+
+.header button:hover {
+    background-color: white;
+    color: black;
+}
+
+.header-burger {
+    position: absolute;
+    right: 0;
+    display: none !important;
+    width: 45px;
+    height: 35px;
+    background-color: inherit;
+}
+
+.header-burger>span {
+    position: absolute;
+    right: 0;
+    width: 25px;
+    padding: 1.5px 0;
+    background-color: white
+}
+
+.header-burger::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    content: '';
+    width: 45px;
+    height: 3px;
+}
+
+.header-burger::before {
+    position: absolute;
+    right: 0;   
+    bottom: 0;
+    background-color: white;
+    content: '';
+    width: 35px;
+    height: 3px;
+}
+
+
+@media (max-width:1460px) {
+    .header>div {
+        margin-left: 800px;
+    }
+}
+
+@media (max-width:1400px) {
+    .header>div {
+        margin-left: 700px;
+    }
+}
+
+@media (max-width:1340px) {
+    .header>div {
+        margin-left: 600px;
+    }
+}
+
+@media (max-width:1250px) {
+    .header>div {
+        margin-left: 500px;
+    }
+}
+
+@media (max-width:1160px) {
+    .header>div {
+        margin-left: 400px;
+    }
+}
+
+@media (max-width:1050px) {
+    .header>div {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width:960px) {
+    .header>div {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width:850px) {
+    .header>div {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:850px) {
+    .header-burger {
+        display: block !important;
+    }
+}

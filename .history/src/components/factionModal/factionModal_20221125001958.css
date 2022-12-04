@@ -1,0 +1,85 @@
+.factionModal__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 76px;
+}
+
+.factionModal__button-close {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    outline: none;
+    padding: 21px 40px;
+    background: inherit;
+    border: 2px solid #FFFFFF;
+    backdrop-filter: blur(17px);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.factionModal__button-next {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 21px 66px 21px 32px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.factionModal__info-list {
+    margin-top: 60px;
+    margin-right: 45%;
+    margin-bottom: 100px;
+}
+
+.factionModal__info-list-item {
+    font-family: 'Move X';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.factionModal__info-list-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.factionModal-locations {
+    position: absolute;
+    bottom: 0;
+    height: 40%;
+    display: grid;
+    grid-template-columns: repeat(5, 271px);
+    column-gap: 30px;
+    overflow-y: scroll;
+    
+}
+
+.factionModal-locations-item {
+    display: block;
+    padding: 58px 25px;
+    background: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(23px);
+}
+
+/* .factionModal-locations-item:nth-child(2) {
+    margin-top: 76px;
+}
+
+.factionModal-locations-item:nth-child(4) {
+    margin-top: 76px;
+} */
+
+.factionModal-locations-item:nth-child(even) {
+margin-top: 30px;
+}
+
+
+
+

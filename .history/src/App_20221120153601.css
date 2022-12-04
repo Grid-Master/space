@@ -1,0 +1,9 @@
+.App {}
+
+.dick {
+    /* clip-path: polygon(0 100%, 0 10%, 75% 10%, 85% 0, 100% 0, 100% 90%, 25% 90%, 15% 100%, ); */
+    clip-path: polygon(0 100%, 10% 100%, 15% 90%, 100% 90%, 100% 0 ,0 0);
+    height: 100px;
+    width: 200px;
+    background-color: red;
+}

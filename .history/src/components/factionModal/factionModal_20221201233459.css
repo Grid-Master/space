@@ -1,0 +1,214 @@
+.factionModal {
+    background-color:red;
+    width: 100%;
+}
+
+.factionModal-title {
+    height: 100px;
+}
+
+.factionModal-title1 {
+    display: none;
+}
+
+.factionModal-title2 {
+    display: none;
+}
+
+.factionModal__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 76px;
+}
+
+.factionModal__button-close {
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    outline: none;
+    padding: 21px 40px;
+    background: inherit;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.factionModal__button-close:hover {
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+}
+
+.factionModal__button-next {
+    position: relative;
+    font-family: 'NeueMachina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    outline: none;
+    background: inherit;
+    line-height: 140%;
+    padding: 21px 66px 21px 32px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.factionModal__button-next:hover {
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+}
+
+.next-arrow {
+    position: absolute;
+    right: 20px;
+    top: 27px;
+}
+
+.next-arrow>path {
+    stroke: #FFFFFF;
+    transition: .5s;
+}
+
+.factionModal__button-next:hover .next-arrow>path {
+    stroke:black;
+}
+
+.factionModal__info-list {
+    margin-top: 60px;
+    margin-right: 45%;
+    margin-bottom: 100px;
+}
+
+.factionModal__info-list-item {
+    font-family: 'Move X';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.factionModal__info-list-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.factionModal-locations {
+    position: absolute;
+    bottom: 0;
+    height: 40%;
+    display: grid;
+    grid-template-columns: repeat(5, 271px);
+    column-gap: 30px;
+    overflow-y: scroll;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    transition: 1s;
+}
+
+.factionModal-locations-container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 270.81px;
+    height: 260.78px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(23px);
+    border-style: solid;
+    border-width: 1px;
+    border-image: radial-gradient(rgba(0,0,0,1), rgba(255,255,255,1)) 1;
+}
+
+.modal .factionModal-locations-container:nth-child(5n+2){
+    margin-top: 30px;
+} 
+
+.modal .factionModal-locations-container:nth-child(5n+4) {
+    margin-top: 30px;
+}
+
+
+@media (max-width: 1700px) {
+    .factionModal-locations {
+        grid-template-columns: repeat(4, 271px);
+    }
+
+    .modal .factionModal-locations-container:nth-child(5n+2){
+        margin-top: 0px;
+    } 
+    
+    .modal .factionModal-locations-container:nth-child(5n+4) {
+        margin-top: 0px;
+    }
+    
+
+    .modal .factionModal-locations-container:nth-child(even){
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .factionModal-locations {
+        grid-template-columns: repeat(3, 271px);
+    }
+
+    .modal .factionModal-locations-container:nth-child(even){
+        margin-top: 0px;
+    }
+
+    .modal .factionModal-locations-container:nth-child(3n+2){
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .factionModal-locations {
+        grid-template-columns: repeat(2, 271px);
+    }
+
+    .modal .factionModal-locations-container:nth-child(3n+2){
+        margin-top: 0px;
+    }
+    .modal .factionModal-locations-container {
+        margin-bottom: 30px;
+    }
+    .factionModal__info-list-item {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 950px) {
+    .factionModal-locations {   
+        margin-left: 150px;
+        grid-template-columns: repeat(1, 271px);
+    }
+    .factionModal-title {
+        display: none;
+    }
+    
+    .factionModal-title1 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .factionModal-title2 {
+        margin-left: auto;
+        margin-right: auto; 
+        display: block;
+        transform: translateY(-30px);
+    }
+    .factionModal__info-list-item {
+        margin-left: 150px; 
+    }
+}
+
+
+

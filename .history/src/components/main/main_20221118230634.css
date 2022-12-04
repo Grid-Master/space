@@ -1,0 +1,28 @@
+.main {
+    background-image: url(../../assets/images/mainBackground.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+.main h2 {
+    margin-top: 260px;
+    text-align: center;
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 78px;
+    letter-spacing: 0.365em;
+}
+
+.main>div {
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-button {
+    
+}

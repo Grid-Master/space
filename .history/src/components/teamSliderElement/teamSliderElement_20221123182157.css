@@ -1,0 +1,20 @@
+.teamSliderElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 265.5px;
+    height: 420.85px;
+}
+
+.avatar {
+width: 247px;
+height: 329px;
+}
+
+.teamSliderElement p {
+    
+}
+
+.teamSliderElement span {
+
+}

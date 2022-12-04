@@ -1,0 +1,7 @@
+.factions {
+    display: flex;
+    background-image: url(../../assets/images/factionsbg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}

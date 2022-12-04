@@ -1,0 +1,84 @@
+.ourteam {
+    position: relative;
+    margin-top: 327px;
+    margin-bottom: 161px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourteam-title {
+    position: relative;
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.21em;
+    width: 588.5px;
+    margin-bottom: 103px;
+    z-index: 2;
+}
+
+.ourteam-title span {
+    position: absolute;
+    left: 255px;
+    top: -60px;
+    letter-spacing: normal;
+    font-family: 'MazzardH';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    background: linear-gradient(90deg, #FFB800 0%, #FFBAC3 70.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.lineTeam {
+    position: absolute;
+    left: 235px;
+    top: -33px;
+    transform: rotateX(180deg);
+    width: 122.5px;
+    height: 10px;
+}
+
+.ourteam-eye {
+    width: 71px;
+    height: 44px;
+}
+
+.bigFade10 {
+    position: absolute;
+    background: rgba(199, 70, 210, 0.5);
+    opacity: 0.7;
+    filter: blur(190.875px);
+    transform: matrix(-0.95, -0.15, -0.33, 0.99, 0, 0);
+    width: 847.37px;
+    height: 656.75px;
+    bottom: -300px;
+    z-index: 1;
+}
+
+.bigfade10 {
+    position: absolute;
+    bottom: -162px;
+    left: 0;
+}
+
+.bigfade11 {
+    position: absolute;
+    bottom: -162px;
+    right: 0;
+}
+
+.bigfade12 {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}

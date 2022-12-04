@@ -1,0 +1,57 @@
+.factions {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 160px; */
+    padding-right: 65px;
+    background-image: url(../../assets/images/factionsbg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+.factions>h2 {
+    margin-right: 160px;
+    font-family: 'TTOctosquares';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 95px;
+    letter-spacing: 0.365em;
+    padding-left: 22%;
+    z-index: 1;
+}
+
+.factions__list {
+    position: relative;
+    padding-right: 62px;
+    z-index: 2;
+}
+
+.factions__list::after {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 4px;
+    height: 100%;
+    background-color: white;
+}
+
+.bigFade3 {
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.bigFade4 {
+    position: absolute;
+    left: 400px;
+    top: -200px;
+}
+
+.bigFade5 {
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
