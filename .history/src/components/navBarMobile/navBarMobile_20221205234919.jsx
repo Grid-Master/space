@@ -94,34 +94,14 @@ const navBarMobile = ({ activeBurger, setActiveBurger }) => {
             to="collaborations"
             spy={true}
             smooth={true}
-            offset={-180}
+            offset={-150}
             duration={0}
             onClick={() => setActiveBurger(false)}>
             Collaborations
           </Link>
         </li>
-        <li>
-          <Link
-            to="faq"
-            spy={true}
-            smooth={true}
-            offset={-190}
-            duration={0}
-            onClick={() => setActiveBurger(false)}>
-            FAQ
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="team"
-            spy={true}
-            smooth={true}
-            offset={-200}
-            duration={0}
-            onClick={() => setActiveBurger(false)}>
-            Team
-          </Link>
-        </li>
+        <li>FAQ</li>
+        <li>Team</li>
       </ul>
       <ul className="burger-menu-socials">
         <li>

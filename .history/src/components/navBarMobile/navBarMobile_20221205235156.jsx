@@ -116,7 +116,7 @@ const navBarMobile = ({ activeBurger, setActiveBurger }) => {
             to="team"
             spy={true}
             smooth={true}
-            offset={-200}
+            offset={0}
             duration={0}
             onClick={() => setActiveBurger(false)}>
             Team

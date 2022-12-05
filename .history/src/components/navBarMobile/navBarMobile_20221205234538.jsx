@@ -61,67 +61,17 @@ const navBarMobile = ({ activeBurger, setActiveBurger }) => {
             to="main"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={50}
             duration={0}
             onClick={() => setActiveBurger(false)}>
             Home
           </Link>
         </li>
-        <li>
-          <Link
-            to="factions"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={0}
-            onClick={() => setActiveBurger(false)}>
-            Factions
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="roadmap"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={0}
-            onClick={() => setActiveBurger(false)}>
-            Roadmap
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="collaborations"
-            spy={true}
-            smooth={true}
-            offset={-180}
-            duration={0}
-            onClick={() => setActiveBurger(false)}>
-            Collaborations
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="faq"
-            spy={true}
-            smooth={true}
-            offset={-190}
-            duration={0}
-            onClick={() => setActiveBurger(false)}>
-            FAQ
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="team"
-            spy={true}
-            smooth={true}
-            offset={-200}
-            duration={0}
-            onClick={() => setActiveBurger(false)}>
-            Team
-          </Link>
-        </li>
+        <li>Factions</li>
+        <li>Roadmap</li>
+        <li>Collaborations</li>
+        <li>FAQ</li>
+        <li>Team</li>
       </ul>
       <ul className="burger-menu-socials">
         <li>

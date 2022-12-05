@@ -1,7 +1,6 @@
 import React from 'react';
 import './header.css';
 import logo from '../../assets/images/logo.png';
-import { Link } from 'react-scroll';
 
 const Header = ({ activeBurger, setActiveBurger }) => {
   return (
@@ -15,6 +14,7 @@ const Header = ({ activeBurger, setActiveBurger }) => {
         onClick={() => setActiveBurger(false)}>
         <img src={logo} alt="backgroundImg" />
       </Link>
+
       <div>
         <ul>
           <li>

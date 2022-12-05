@@ -15,6 +15,7 @@ const Header = ({ activeBurger, setActiveBurger }) => {
         onClick={() => setActiveBurger(false)}>
         <img src={logo} alt="backgroundImg" />
       </Link>
+
       <div>
         <ul>
           <li>
