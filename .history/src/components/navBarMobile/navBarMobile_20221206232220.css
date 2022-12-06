@@ -19,7 +19,6 @@
 }
 
 .burger-menu-list li {
-    position: relative;
     font-family: 'NeueMachina';
     font-style: normal;
     font-weight: 500;
@@ -28,19 +27,6 @@
     margin-bottom: 81px;
     cursor: pointer;
     transition: .5s;
-}
-.burger-menu-list li a {
-    background: inherit;
-}
-
-.burger-menu-list li:not(:last-child)::after {
-    content: url(../../assets/images/menuStar.png);
-    height: 21px;
-    width: 21px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-8px, 36px);
 }
 
 .burger-menu-list li:hover {
@@ -84,15 +70,9 @@
 
 @media (max-height:850px) {
     .burger-menu-list li {
-        margin-bottom: 60px;
-    }
-
-    .burger-menu-list li:last-child {
         margin-bottom: 50px;
     }
-
-    .burger-menu-list li:not(:last-child)::after {
-        transform: translate(-8px, 28px);
+    .burger-menu-socials li:not(:last-child) {
+        margin-right: 33px;
     }
-    
 }

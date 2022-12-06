@@ -15,11 +15,12 @@
 .header img {
     height: 65px;
     cursor: pointer;
+    background: inherit !important;
     transition: 0s !important;
 }
 
 .header>a {
-    background: none;
+    background: inherit;
     transition: 0s !important;
 }
 
@@ -71,7 +72,7 @@
     display: none !important;
     width: 45px !important;
     height: 35px !important;
-    background-color:none;
+    background-color: inherit;
     align-self: right !important;
     cursor: pointer;
     z-index: 6;
@@ -148,7 +149,7 @@
         display: none;
     }
     .active {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: black;
         transition: .5s;
         margin-left: 0;
         margin-right: 0;

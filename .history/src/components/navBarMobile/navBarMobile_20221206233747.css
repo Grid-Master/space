@@ -29,9 +29,6 @@
     cursor: pointer;
     transition: .5s;
 }
-.burger-menu-list li a {
-    background: inherit;
-}
 
 .burger-menu-list li:not(:last-child)::after {
     content: url(../../assets/images/menuStar.png);
@@ -92,7 +89,9 @@
     }
 
     .burger-menu-list li:not(:last-child)::after {
-        transform: translate(-8px, 28px);
+        transform: translate(-13px, 30px);
+        width: 15px;
+        height: 15px;
     }
     
 }

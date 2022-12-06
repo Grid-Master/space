@@ -98,7 +98,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: flex-end;
-      padding-right: 0;
     }
 
     .factions>h2  {
@@ -106,12 +105,6 @@
         margin-bottom: 100px;
         margin-right: auto;
         margin-left: auto;
-        transform: translateY(-180px);
-    }
-    .factions__list {
-        position: absolute;
-        right: 50px;
-        top: 400px;
     }
 }
 
@@ -122,6 +115,9 @@
 }
 
 @media (max-width:960px) {
+    .factions>h2  {
+        font-size: 50px;
+    }
     .bigFade2 {
         bottom: -15%;
     }
@@ -139,23 +135,14 @@
     }
 }
 
-@media (max-width:768px) {
- .factions>h2  {
-        font-size: 60px;
-    }
-}
-
 
 @media (max-width:500px) {
     .factions>h2  {
         letter-spacing: 0.2em;
-        font-size: 46px;
-        transform: translateY(-280px);
     }
 
     .factions__list {
-        right: 15px;
-        top: 330px;
+margin-right: 20px;
     }
 
     .factions__list::after {

@@ -19,11 +19,7 @@ const Header = ({ activeBurger, setActiveBurger }) => {
 
   const closeMenu = () => {
     setActiveBurger(false);
-    if (window.scrollY >= 50 && activeBurger) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
+    changeBackground();
   };
 
   const toogleMenu = () => {

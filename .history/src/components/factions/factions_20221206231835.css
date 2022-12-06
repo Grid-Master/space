@@ -150,12 +150,10 @@
     .factions>h2  {
         letter-spacing: 0.2em;
         font-size: 46px;
-        transform: translateY(-280px);
     }
 
     .factions__list {
-        right: 15px;
-        top: 330px;
+        right: 30px;
     }
 
     .factions__list::after {

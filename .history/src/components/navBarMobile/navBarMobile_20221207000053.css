@@ -28,9 +28,7 @@
     margin-bottom: 81px;
     cursor: pointer;
     transition: .5s;
-}
-.burger-menu-list li a {
-    background: inherit;
+    background: inherit !important;
 }
 
 .burger-menu-list li:not(:last-child)::after {

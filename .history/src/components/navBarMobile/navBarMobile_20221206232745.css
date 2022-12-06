@@ -29,18 +29,14 @@
     cursor: pointer;
     transition: .5s;
 }
-.burger-menu-list li a {
-    background: inherit;
-}
 
 .burger-menu-list li:not(:last-child)::after {
-    content: url(../../assets/images/menuStar.png);
+    content: url(../../assets/images/star4.png);
     height: 21px;
     width: 21px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-8px, 36px);
+    top: 20px;
+    left: 30px;
 }
 
 .burger-menu-list li:hover {
@@ -90,9 +86,4 @@
     .burger-menu-list li:last-child {
         margin-bottom: 50px;
     }
-
-    .burger-menu-list li:not(:last-child)::after {
-        transform: translate(-8px, 28px);
-    }
-    
 }

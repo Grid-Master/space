@@ -7,37 +7,15 @@ import { useState } from 'react';
 const Header = ({ activeBurger, setActiveBurger }) => {
   const [navbar, setNavbar] = useState(false);
 
-  const changeBackground = () => {
-    if (window.scrollY >= 50 && !activeBurger) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-
-  window.addEventListener('scroll', changeBackground);
-
-  const closeMenu = () => {
-    setActiveBurger(false);
-    if (window.scrollY >= 50 && activeBurger) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-
-  const toogleMenu = () => {
-    setActiveBurger(!activeBurger);
-    if (window.scrollY >= 50 && activeBurger) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-
   return (
-    <header className={navbar ? 'header active' : 'header'}>
-      <Link to="main" spy={true} smooth={true} offset={-50} duration={0} onClick={closeMenu}>
+    <header className="header">
+      <Link
+        to="main"
+        spy={true}
+        smooth={true}
+        offset={-50}
+        duration={0}
+        onClick={() => setActiveBurger(false)}>
         <img src={logo} alt="backgroundImg" />
       </Link>
       <div>
@@ -91,7 +69,7 @@ const Header = ({ activeBurger, setActiveBurger }) => {
         <button>Whitepaper</button>
       </div>
       <div
-        onClick={toogleMenu}
+        onClick={() => setActiveBurger(!activeBurger)}
         className={activeBurger ? 'header-burger-active header-burger' : 'header-burger'}>
         <span></span>
       </div>

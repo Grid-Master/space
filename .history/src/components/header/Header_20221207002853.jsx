@@ -7,15 +7,15 @@ import { useState } from 'react';
 const Header = ({ activeBurger, setActiveBurger }) => {
   const [navbar, setNavbar] = useState(false);
 
-  const changeBackground = () => {
-    if (window.scrollY >= 50 && !activeBurger) {
+  const changeBackground = (active) => {
+    if (window.scrollY >= 50 && !active) {
       setNavbar(true);
     } else {
       setNavbar(false);
     }
   };
 
-  window.addEventListener('scroll', changeBackground);
+  window.addEventListener('scroll', changeBackground(true));
 
   const closeMenu = () => {
     setActiveBurger(false);

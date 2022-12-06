@@ -8,7 +8,7 @@ const Header = ({ activeBurger, setActiveBurger }) => {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 50 && !activeBurger) {
+    if (window.scrollY >= 50) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -19,20 +19,12 @@ const Header = ({ activeBurger, setActiveBurger }) => {
 
   const closeMenu = () => {
     setActiveBurger(false);
-    if (window.scrollY >= 50 && activeBurger) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
+    changeBackground();
   };
 
-  const toogleMenu = () => {
+  const openMenu = () => {
     setActiveBurger(!activeBurger);
-    if (window.scrollY >= 50 && activeBurger) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
+    setNavbar(false);
   };
 
   return (
@@ -91,7 +83,7 @@ const Header = ({ activeBurger, setActiveBurger }) => {
         <button>Whitepaper</button>
       </div>
       <div
-        onClick={toogleMenu}
+        onClick={openMenu}
         className={activeBurger ? 'header-burger-active header-burger' : 'header-burger'}>
         <span></span>
       </div>

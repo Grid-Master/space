@@ -5,22 +5,17 @@
     align-items: center;
     padding-top: 18px;
     padding-bottom: 18px;
-    padding-left: 15px;
+    padding-left: 50px;
     padding-right: 50px;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    transition: .5s;
 }
 
 .header img {
     height: 65px;
     cursor: pointer;
-    transition: 0s !important;
 }
 
 .header>a {
-    background: none;
-    transition: 0s !important;
+    background: inherit;
 }
 
 .header>div {
@@ -71,7 +66,7 @@
     display: none !important;
     width: 45px !important;
     height: 35px !important;
-    background-color:none;
+    background-color: inherit;
     align-self: right !important;
     cursor: pointer;
     z-index: 6;
@@ -148,9 +143,7 @@
         display: none;
     }
     .active {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: blanchedalmond;
         transition: .5s;
-        margin-left: 0;
-        margin-right: 0;
     }
 }
