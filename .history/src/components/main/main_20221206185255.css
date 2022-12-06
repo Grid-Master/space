@@ -2,7 +2,7 @@
     background-image: url(../../assets/images/mainBackground.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 100vh;
+    height: 100vh !important;
 }
 
 .main h2 {
@@ -84,18 +84,6 @@
     .main>div {
 
         transform: translateY(330px);
-    }
-}
-
-@media (max-height:850px) {
-    .main h2 {
-        margin-top: 0;
-        transform: translateY(230px);
-    }
-
-    .main>div {
-
-        transform: translateY(230px);
     }
 }
 

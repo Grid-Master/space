@@ -87,18 +87,6 @@
     }
 }
 
-@media (max-height:850px) {
-    .main h2 {
-        margin-top: 0;
-        transform: translateY(230px);
-    }
-
-    .main>div {
-
-        transform: translateY(230px);
-    }
-}
-
 @media (max-width:550px) {
     .main h2 {
         max-width: 400px;
