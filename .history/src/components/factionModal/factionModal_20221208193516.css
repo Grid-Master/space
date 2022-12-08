@@ -221,7 +221,6 @@
     }
     .factionModal__button {
         transform: translateX(-45px);
-        margin-bottom: 30px;
     }
     .factionModal__button-close {
         margin-right: 70px;
