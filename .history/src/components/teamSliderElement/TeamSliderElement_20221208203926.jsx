@@ -1,7 +1,7 @@
 import React from 'react';
 import './teamSliderElement.css';
 
-const TeamSliderElement = ({ activeSlide, id, name, desc, img, imgBig }) => {
+const TeamSliderElement = ({ activeSlide, setActiveSlide, id, name, desc, text, img, imgBig }) => {
   return (
     <div
       className={

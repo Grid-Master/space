@@ -177,15 +177,12 @@
 }
 
 @media (max-height:670px) {
-    .factions__list {
-        top: 150px;
-    }
     .factions>h2  {
         transform: translateY(-200px);
     }
 }
 @media (max-height:590px) {
     .factions>h2  {
-        transform: translateY(-160px);
+        transform: translateY(-180px);
     }
 }

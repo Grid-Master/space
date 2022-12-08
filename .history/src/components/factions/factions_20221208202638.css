@@ -150,7 +150,7 @@
     .factions>h2  {
         letter-spacing: 0.2em;
         font-size: 46px;
-        transform: translateY(-280px);
+        
     }
 
     .factions__list {
@@ -167,25 +167,5 @@
     }
     .bigFade2 {
         bottom: -7.5%;
-    }
-}
-
-@media (max-height:790px) {
-    .factions>h2  {
-        transform: translateY(-240px);
-    }
-}
-
-@media (max-height:670px) {
-    .factions__list {
-        top: 150px;
-    }
-    .factions>h2  {
-        transform: translateY(-200px);
-    }
-}
-@media (max-height:590px) {
-    .factions>h2  {
-        transform: translateY(-160px);
     }
 }

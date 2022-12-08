@@ -66,7 +66,7 @@ const Factions = () => {
         />
       </Modal>
       <img className="bigFade3" src={bigFade3} alt="bigFade3" />
-      <img className="bigFade4" src={bigFade4} alt="bigFade4" />
+      {/* <img className="bigFade4" src={bigFade4} alt="bigFade4" /> */}
       <img className="bigFade5" src={bigFade5} alt="bigFade5" />
       <img className="bigFade2" src={bigFade2} alt="bigFade2" />
     </section>

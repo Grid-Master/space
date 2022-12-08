@@ -178,7 +178,7 @@
 
 @media (max-height:670px) {
     .factions__list {
-        top: 150px;
+        top: 100px;
     }
     .factions>h2  {
         transform: translateY(-200px);
