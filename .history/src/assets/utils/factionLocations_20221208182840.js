@@ -94,7 +94,8 @@ export const factionLocations = [
     titleLittle2: titleLittle2Sundered,
     info: [
       'Dusktopia’s last remaining sanctuary of peace',
-      `Researchers and scientists congregate here to live in religious pacifism`,
+      `Researchers and scientists congregate here to live in religious pacifism, spending their time developing a renewable energy source for the world
+      A small faction wants more - selling Aurium on the black market for their own personal gain`,
       `Will you root out the traitors or join them?`,
     ],
 
@@ -115,7 +116,7 @@ export const factionLocations = [
     titleLittle2: titleLittle2SkyCitadel,
     info: [
       'These are where the apex predators in Dusktopia reside',
-      `The political and :`,
+      `The political and economic masters of all society: living high above the suffering of ordinary denizens, and calmly plot elevated pursuits like space colonization in absolute peace`,
       `If you’re lucky enough to be part of it, hold on tight - everybody wants what you have`,
     ],
 

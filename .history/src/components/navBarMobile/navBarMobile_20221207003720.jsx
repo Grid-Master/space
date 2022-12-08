@@ -44,7 +44,7 @@ const navBarMobile = ({ setActiveBurger }) => {
             to="collaborations"
             spy={true}
             smooth={true}
-            offset={-200}
+            offset={-180}
             duration={0}
             onClick={() => setActiveBurger(false)}>
             Collaborations

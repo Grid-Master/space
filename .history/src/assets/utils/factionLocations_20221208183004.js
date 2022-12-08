@@ -115,7 +115,7 @@ export const factionLocations = [
     titleLittle2: titleLittle2SkyCitadel,
     info: [
       'These are where the apex predators in Dusktopia reside',
-      `The political and :`,
+      `The political and ...:`,
       `If you’re lucky enough to be part of it, hold on tight - everybody wants what you have`,
     ],
 

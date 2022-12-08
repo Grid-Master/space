@@ -251,4 +251,7 @@
     background-color: #253861;
 }
 
+body {
+overflow-y: hidden !important;
+}
 
